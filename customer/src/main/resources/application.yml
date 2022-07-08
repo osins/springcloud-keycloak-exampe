@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: service-customer1
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8086/eureka
+    healthcheck:
+      enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 10
+
+#actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,beans

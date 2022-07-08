@@ -1,0 +1,45 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    gateway:
+      default-filters:
+        - TokenRelay
+      discovery:
+        locator:
+          lower-case-service-id: true
+          enabled: true
+      routes:
+        - id: hello_route
+          uri: http://localhost:8082
+          predicates:
+            - Path=/online/**
+  redis:
+    database: 0
+    port: 6379
+    host: localhost
+    password:
+  security:
+    oauth2:
+      client:
+        provider:
+          my-keycloak-provider:
+            issuer-uri: http://localhost:5001/auth/realms/My-Realm
+        registration:
+          keycloak-spring-gateway-client:
+            provider: my-keycloak-provider
+            client-id: spring-gateway-client
+            client-secret: ca125f09-a673-400b-ac12-412adb067c3f
+            authorization-grant-type: authorization_code
+            redirect-uri: '{baseUrl}/login/oauth2/code/keycloak'
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    org.springframework.security: DEBUG
+    org.springframework.security.oauth2: ERROR
+    org.springframework.boot.autoconfigure: ERROR

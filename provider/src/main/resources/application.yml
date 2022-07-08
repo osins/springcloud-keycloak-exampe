@@ -1,0 +1,50 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: service-provider1
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: http://localhost:5001/auth/realms/My-Realm/protocol/openid-connect/certs
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://localhost:3306/keycloak?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    password: root
+    username: root
+  sql:
+    init:
+      encoding: UTF-8
+  redis:
+    database: 0   # Redis数据库索引（默认为0）
+    host: 127.0.0.1  # Redis服务器地址
+    port: 6379  # Redis服务器连接端口
+    timeout: 5000  # 连接超时时间（毫秒）
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8086/eureka
+    healthcheck:
+      enabled: true
+  instance:
+    lease-renewal-interval-in-seconds: 30
+    lease-expiration-duration-in-seconds: 10
+
+#actuator
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,beans
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    org.springframework.security: ERROR
+    org.springframework.security.oauth2: ERROR
+    org.springframework.boot.autoconfigure: ERROR

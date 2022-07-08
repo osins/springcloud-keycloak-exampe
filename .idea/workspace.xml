@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="698a2f9c-4412-4dc1-ab4d-616f30ddd933" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/fbecloud/customer/CustomerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/com/fbecloud/customer/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/test/java/com/fbecloud/customer/CustomerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/fbecloud/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/fbecloud/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/fbecloud/gateway/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/fbecloud/gateway/GatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/config/CacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/config/RealmRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/DefaultCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/Indexes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/Keycloak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/Keys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/Tables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/tables/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/tables/pojos/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/db/identity/tables/records/UserEntityRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/service/DefaultUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/fbecloud/provider/service/UesrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/test/java/com/fbecloud/provider/ProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/fbecloud/security/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/fbecloud/security/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/fbecloud/security/config/DefaultSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/main/org/springframework/security/oauth2/server/authorization/client/oauth2-registered-client-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/main/org/springframework/security/oauth2/server/authorization/oauth2-authorization-consent-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/main/resources/main/org/springframework/security/oauth2/server/authorization/oauth2-authorization-schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/src/test/java/com/fbecloud/security/SecurityApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/fbecloud/server/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/test/java/com/fbecloud/server/ServerApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/provider" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BYMJ0ffCo5pI1o8y3wmupsRNix" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "C:/works/codes/fbecloud/provider/src/main/java/com/fbecloud/provider/config",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general",
+    "spring.configuration.checksum": "559c3cdabc1682d845ff3cb6cbee0eb5"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\works\codes\fbecloud\provider\src\main\java\com\fbecloud\provider\config" />
+      <recent name="C:\works\codes\fbecloud\gateway\src\main\resources" />
+      <recent name="C:\works\codes\fbecloud\provider\src\main\resources" />
+      <recent name="C:\works\codes\fbecloud\provider\src\main\java\com\fbecloud\provider" />
+      <recent name="C:\works\codes\fbecloud\provider\src\main\java\com\fbecloud\provider\domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fbecloud.provider" />
+      <recent name="com.fbecloud.security.web" />
+      <recent name="com.fbecloud.security.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="customer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fbecloud.customer.CustomerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fbecloud.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="DEBUG_MODE" value="true" />
+      <module name="provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fbecloud.provider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ENABLE_LAUNCH_OPTIMIZATION" value="false" />
+      <module name="security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fbecloud.security.SecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fbecloud.server.ServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CustomerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.SecurityApplication" />
+      <item itemvalue="Spring Boot.ServerApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="698a2f9c-4412-4dc1-ab4d-616f30ddd933" name="Changes" comment="" />
+      <created>1657078489518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657078489518</updated>
+      <workItem from="1657078492452" duration="2473000" />
+      <workItem from="1657086166975" duration="1290000" />
+      <workItem from="1657087466770" duration="623000" />
+      <workItem from="1657088098760" duration="5100000" />
+      <workItem from="1657093254075" duration="14778000" />
+      <workItem from="1657154605125" duration="4914000" />
+      <workItem from="1657179079130" duration="36000" />
+      <workItem from="1657179124684" duration="1213000" />
+      <workItem from="1657180357302" duration="3269000" />
+      <workItem from="1657191496149" duration="5767000" />
+      <workItem from="1657240776939" duration="22516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+    <option featureType="dependencySupport" implementationName="java:com.amazonaws:aws-java-sdk-core" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

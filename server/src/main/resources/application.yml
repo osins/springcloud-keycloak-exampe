@@ -1,0 +1,16 @@
+server:
+  port: 8086
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8086/eureka/
+  server:
+    eviction-interval-timer-in-ms: 4000
+    enable-self-preservation: true
+
+
